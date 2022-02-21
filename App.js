@@ -43,9 +43,9 @@ function App() {
   }, []);
 
   const test = async () => {
-    const resp = await fetch("127.0.0.1:8000/api/pipe/pipe_50x60s");
+    const resp = await fetch("https://fierce-island-28572.herokuapp.com/api/pipe/pipe_70x82s");
 
-    console.log(resp);
+    console.log(resp.json());
   };
 
   const loadProducts = async () => {
